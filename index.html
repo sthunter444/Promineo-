@@ -17,17 +17,23 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color:crimson; /
+      background-color:crimson; 
       padding: 20px; 
     }
     .larger-image {
       width: 400px; 
       height: auto; 
-      border: 2px solid yellow; 
+      border: 2px solid yellow;
     }
     .flashing-box {
-      animation: flashing 1s infinite; 
+      animation: flashing 3s infinite;
+      text-align: center; 
     }
+     h2{
+        text-align: center;
+        color: rgb(35, 8, 153);
+     }
+
     @keyframes flashing {
       0% {
         box-shadow: 0 0 30px black; 
@@ -64,20 +70,27 @@
 
   <div class="container">
     <main>
-      <center>
+      
         <h1 class="flashing-box">WELCOME TO FREYA'S FRIENDS!</h1>
           <h2> Connecting pitbulls with the families that love them</h2>
         
         <div class="image-container"> 
           <img src="https://tse4.mm.bing.net/th?id=OIP.apVRprPQFoq0oG6r0vbxvQHaHY&pid=Api&P=0&h=180" alt="group of pitbulls" class="larger-image">
-        </div>
-        
-        <h3 class="flashing-box">Bring home a new furrrbaby today!!!</h2>
-      </center>
+        </div>        
+        <h3 class="flashing-box">Bring home a new furrrbaby today!!!</h3>
+      
     </main>
+    </div>
         
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
